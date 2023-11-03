@@ -1,5 +1,5 @@
 # template-travel-agency
-![viewfinal]()
+![viewfinal](https://github.com/ladan-hazrati-web/template-travel-agency/assets/119695832/e19e9e58-0c9a-4eca-9deb-7a0a04972fcc)
 **You can see information about my project**
 
 - [Demo Project]( https://ladan-hazrati-web.github.io/template-travel-agency/)
@@ -8,7 +8,7 @@
 
 - Created - 2023-11-01
 
-- Technologies Used - Html , css , Flex , SASS
+- Technologies Used - Html , css , Tailwind
 
 - Hooks Used : useState 
 

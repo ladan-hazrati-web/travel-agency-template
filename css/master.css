@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: barlow;
+    src: url(../font/Barlow-Regular.ttf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(../font/Poppins-Bold.ttf);
+}
+.travol{
+    -webkit-text-stroke:2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.photo{
+    transform-style: preserve-3d;
+}
+.photo:hover{
+    transform:perspective(800px) rotateY(-180deg);
+}
+.bottom-photo{
+    transform:perspective(800px) translateZ(-1px) scaleX(-1);
+}
+.fig{
+    transform:perspective(800px) translateZ(30px);
+}
+.out{
+    outline-color: rgba(255, 255, 255, 0.271);
+    backdrop-filter: blur(5px);
+}
+@keyframes identy{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+@layer utilities {
+    .pause {
+      animation-play-state: paused;
+    }
+ }

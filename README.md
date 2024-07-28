@@ -6,11 +6,7 @@
 
 - Developed by ladan hazrati
 
-- Created - 2023-11-01
-
-- Technologies Used - Html , css , Tailwind
-
-- Hooks Used : useState 
+- Technologies Used - HTML , CSS , Tailwind
 
 - Role - Frontend
 
